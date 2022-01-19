@@ -1084,13 +1084,7 @@ export default function ClickableHouse() {
                 d="M2036.43,1320.84v-14.33h-21.08c-4.13-29.27-17-50.62-32.26-50.62s-28.12,21.34-32.28,50.62h-21v14.33h106.66Z"
                 fill="#ef7100"
               />
-            </a>
-            <a
-              href="https://www.manomano.fr/baignoire-3054"
-              target="_blank"
-              rel="noreferrer"
-              className={styles.clickableElement}
-            >
+
               <path
                 d="M1935.16,1324.95h0a2,2,0,0,1-2-2v-5.85a2,2,0,0,1,2-2h0a2,2,0,0,1,1.95,2V1323A2,2,0,0,1,1935.16,1324.95Z"
                 fill="#ef7100"
@@ -1135,7 +1129,13 @@ export default function ClickableHouse() {
                 d="M2031,1324.95h0a2,2,0,0,1-2-2v-5.85a2,2,0,0,1,2-2h0a2,2,0,0,1,1.95,2V1323A2,2,0,0,1,2031,1324.95Z"
                 fill="#ef7100"
               />
-
+            </a>
+            <a
+              href="https://www.manomano.fr/baignoire-3054"
+              target="_blank"
+              rel="noreferrer"
+              className={styles.clickableElement}
+            >
               <path
                 d="M2049.2,1617.84c-96.79,0-184.75-14.66-250.19-38.57,4.11,69.25,25.6,132.3,59,182.15h382.43c33.38-49.85,54.86-112.9,59-182.15C2233.94,1603.17,2146,1617.84,2049.2,1617.84Z"
                 fill="#658f96"
