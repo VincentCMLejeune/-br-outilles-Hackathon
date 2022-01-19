@@ -282,15 +282,15 @@ export default function ClickableHouse() {
               fill="#7a5334"
             />
             <text transform="translate(1428.75 2126.03)" fontSize="16.72">
-              Why is IE
+              Guide
               <tspan x="0" y="20">
-                such a{" "}
+                des{" "}
               </tspan>
               <tspan x="0" y="40">
-                pain with
+                soldes
               </tspan>
               <tspan x="0" y="60">
-                SVGs?
+                d'hiver
               </tspan>
             </text>
             <rect
@@ -315,15 +315,15 @@ export default function ClickableHouse() {
               fill="#7c1313"
             />
             <text transform="translate(1519 2138.93)" fontSize="13" fill="#fff">
-              Is Blake
+              Acheter
               <tspan x="0" y="14">
-                real or
+                une
               </tspan>
               <tspan x="0" y="28">
-                from the
+                autre
               </tspan>
               <tspan x="0" y="42">
-                Matrix?
+                scie
               </tspan>
             </text>
             <rect
@@ -347,91 +347,103 @@ export default function ClickableHouse() {
               height="88.86"
               fill="#658f96"
             />
-            <rect
-              x="1507.07"
-              y="2292.35"
-              width="62.18"
-              height="95.37"
-              fill="#eff2f9"
-            />
-            <rect
-              x="1507.07"
-              y="2292.35"
-              width="57.2"
-              height="95.37"
-              fill="#658f96"
-            />
-            <rect
-              x="1507.07"
-              y="2292.35"
-              width="4.28"
-              height="95.37"
-              fill="#3c737c"
-            />
-            <text
-              transform="translate(1516.44 2331.12)"
-              fontSize="16"
-              fill="#fff"
+            <a
+              href="https://www.manomano.fr/nos-conseils"
+              target="_blank"
+              rel="noreferrer"
+              className={styles.clickableElement}
             >
-              Why
-              <tspan fontSize="10.5">
+              <rect
+                x="1507.07"
+                y="2292.35"
+                width="62.18"
+                height="95.37"
+                fill="#eff2f9"
+              />
+              <rect
+                x="1507.07"
+                y="2292.35"
+                width="57.2"
+                height="95.37"
+                fill="#658f96"
+              />
+              <rect
+                x="1507.07"
+                y="2292.35"
+                width="4.28"
+                height="95.37"
+                fill="#3c737c"
+              />
+              <text
+                transform="translate(1516.44 2331.12)"
+                fontSize="16"
+                fill="#fff"
+              >
+                Nos
+                <tspan fontSize="10.5">
+                  <tspan x="0" y="10.8">
+                    conseils
+                  </tspan>
+                  <tspan x="0" y="21.6">
+                    pratiques
+                  </tspan>
+                </tspan>
+              </text>
+            </a>
+            <a
+              href="https://www.manomano.fr/nos-comparatifs"
+              target="_blank"
+              rel="noreferrer"
+              className={styles.clickableElement}
+            >
+              <rect
+                x="1430.61"
+                y="2298.29"
+                width="70.11"
+                height="89.44"
+                fill="#eff2f9"
+              />
+              <rect
+                x="1420.61"
+                y="2298.29"
+                width="74.5"
+                height="89.44"
+                fill="#e54630"
+              />
+              <rect
+                x="1420.61"
+                y="2298.29"
+                width="4.8"
+                height="89.44"
+                fill="#7c1313"
+              />
+
+              <text
+                transform="translate(1431.63 2313.25)"
+                fontSize="10.8"
+                fill="#fff"
+              >
+                Nos{" "}
                 <tspan x="0" y="10.8">
-                  is Diaco's
+                  comparatifs
                 </tspan>
                 <tspan x="0" y="21.6">
-                  code so
+                  (nos articles
                 </tspan>
                 <tspan x="0" y="32.4">
-                  awesome?
+                  les plus
                 </tspan>
-              </tspan>
-            </text>
-            <rect
-              x="1430.61"
-              y="2298.29"
-              width="70.11"
-              height="89.44"
-              fill="#eff2f9"
-            />
-            <rect
-              x="1430.61"
-              y="2298.29"
-              width="64.5"
-              height="89.44"
-              fill="#e54630"
-            />
-            <rect
-              x="1430.61"
-              y="2298.29"
-              width="4.8"
-              height="89.44"
-              fill="#7c1313"
-            />
-            <text
-              transform="translate(1441.63 2313.25)"
-              fontSize="10.8"
-              fill="#fff"
-            >
-              Is there{" "}
-              <tspan x="0" y="10.8">
-                anything
-              </tspan>
-              <tspan x="0" y="21.6">
-                about
-              </tspan>
-              <tspan x="0" y="32.4">
-                browsers
-              </tspan>
-              <tspan x="0" y="43.2">
-                Jonathan
-              </tspan>
-              <tspan x="0" y="54">
-                doesn't
-              </tspan>
-              <tspan x="0" y="64.8">
-                know?
-              </tspan>
-            </text>
+                <tspan x="0" y="43.2">
+                  populaires
+                </tspan>
+                <tspan x="0" y="54">
+                  pour tous
+                </tspan>
+                <tspan x="0" y="64.8">
+                  les prix)
+                </tspan>
+              </text>
+            </a>
             <rect
               x="1610.5"
               y="2279.4"
@@ -1238,8 +1250,6 @@ export default function ClickableHouse() {
         <button data-view="1302 1782 1410 630">Salon</button>
         <button data-view="300 981 1440 180">Chambre</button>
         <button data-view="1410 2250 180 108">Guides</button>
-        {/* <button data-view="1410 2100 180 108">Top Shelf</button>
-        <button data-view="1410 2250 180 108">Middle Shelf</button> */}
       </div>
     </div>
   );
