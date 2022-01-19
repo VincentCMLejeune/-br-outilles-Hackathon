@@ -1,6 +1,7 @@
 import { useEffect } from "react";
-
 import gsap from "gsap";
+
+import Logo from "../../assets/logonegatif.png";
 
 import styles from "./ClickableHouse.module.css";
 
@@ -23,6 +24,7 @@ export default function ClickableHouse() {
 
   return (
     <div>
+      {/* <img src={Logo} /> */}
       <h2 className={styles.title}>Je suis la maison</h2>
       <div className={styles.houseContainer}>
         <svg
@@ -180,13 +182,23 @@ export default function ClickableHouse() {
               height="235.32"
               fill="#658f96"
             />
+            <defs>
+              <pattern
+                id="img1"
+                patternUnits="userSpaceOnUse"
+                width="506.93"
+                height="169.57"
+              >
+                <image href={Logo} x="0" y="0" width="211" height="70" />
+              </pattern>
+            </defs>
+
             <rect
               x="875.59"
               y="1132.04"
               width="506.93"
               height="169.57"
-              fill="#262626"
-              className={styles.clickableElement}
+              fill="url(#img1)"
             />
             <rect
               x="1630.49"
@@ -1220,13 +1232,14 @@ export default function ClickableHouse() {
         </svg>
       </div>
       <div className={styles.buttons}>
+        <button data-view="0 0 3000 3000">Maison</button>
         <button data-view="300 1782 1020 840">Cuisine</button>
         <button data-view="1740 900 960 840">Salle de bain</button>
         <button data-view="1302 1782 1410 630">Salon</button>
         <button data-view="300 981 1440 180">Chambre</button>
-        <button data-view="0 0 3000 3000">Maison</button>
-        <button data-view="1410 2100 180 108">Top Shelf</button>
-        <button data-view="1410 2250 180 108">Middle Shelf</button>
+        <button data-view="1410 2250 180 108">Guides</button>
+        {/* <button data-view="1410 2100 180 108">Top Shelf</button>
+        <button data-view="1410 2250 180 108">Middle Shelf</button> */}
       </div>
     </div>
   );

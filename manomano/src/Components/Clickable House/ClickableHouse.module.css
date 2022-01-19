@@ -36,3 +36,7 @@
 .clickableElement:hover circle {
   fill: #12ccb4;
 }
+
+.logoContainer {
+  fill: url("../../assets/logo.png");
+}
