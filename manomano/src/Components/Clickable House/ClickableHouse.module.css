@@ -8,3 +8,31 @@
   display: flex;
   margin: 15px auto;
 }
+
+.buttons {
+  display: flex;
+  width: 600px;
+  margin: 10px auto;
+  justify-content: space-between;
+}
+
+#gsLogo {
+  background-color: red;
+}
+
+.clickableElement:hover {
+  fill: red;
+  cursor: pointer;
+}
+
+.clickableElement:hover rect {
+  fill: red;
+}
+
+.clickableElement:hover path {
+  fill: red;
+}
+
+.clickableElement:hover polygon {
+  fill: red;
+}
