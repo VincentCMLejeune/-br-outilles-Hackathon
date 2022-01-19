@@ -16,23 +16,23 @@
   justify-content: space-between;
 }
 
-#gsLogo {
-  background-color: red;
-}
-
 .clickableElement:hover {
-  fill: red;
+  fill: #12ccb4;
   cursor: pointer;
 }
 
 .clickableElement:hover rect {
-  fill: red;
+  fill: #12ccb4;
 }
 
 .clickableElement:hover path {
-  fill: red;
+  fill: #12ccb4;
 }
 
 .clickableElement:hover polygon {
-  fill: red;
+  fill: #12ccb4;
+}
+
+.clickableElement:hover circle {
+  fill: #12ccb4;
 }
