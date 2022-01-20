@@ -15,7 +15,7 @@ export default function Card() {
             <div className={styles.rightSide}>
                 <h1 className={styles.cardTitle}>Tronçonneuse thermique 62 cm3, guide 50 cm, 2 chaines + housse de transport</h1>
                 <img className={styles.starsImg} src={stars} alt="stars"/>
-                <img className={styles.price} src={price} alt="price"/>
+                <img className={styles.pr} src={price} alt="price"/>
             </div>
         </div>
     )
