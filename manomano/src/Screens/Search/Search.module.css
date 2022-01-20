@@ -58,6 +58,11 @@
   height: auto;
 }
 
+.rightSide {
+  display: flex;
+  flex-direction: column;
+}
+
 .images {
   position: relative;
   display: flex;
@@ -68,5 +73,10 @@
 
 .starsImg {
   width: 40%;
+  padding: 5%;
+}
+
+.price {
+  width: 30%;
   padding: 5%;
 }
