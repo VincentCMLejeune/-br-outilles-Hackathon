@@ -3,17 +3,31 @@
 }
 
 .houseContainer {
-  height: 600px;
-  width: 600px;
+  width: 310px;
+  height: 310px;
   display: flex;
   margin: 15px auto;
 }
 
+@media screen and (min-width: 600px) {
+  .houseContainer {
+    width: 600px;
+    height: 600px;
+  }
+}
+
 .buttons {
   display: flex;
-  width: 600px;
+  flex-wrap: wrap;
+  width: 310px;
   margin: 10px auto;
   justify-content: space-between;
+}
+
+@media screen and (min-width: 600px) {
+  .buttons {
+    width: 600px;
+  }
 }
 
 .clickableElement:hover {
