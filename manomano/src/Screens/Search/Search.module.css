@@ -1,3 +1,9 @@
+.pageTop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .title {
   display: flex;
   justify-content: center;
@@ -20,7 +26,6 @@
 }
 
 .cardContainer {
-  position: relative;
   display: flex;
   flex-direction: row;
   padding: 16px;
@@ -40,6 +45,14 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  padding-top: 5%;
+}
+
+.cards2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 5%;
 }
 
 .cardTitle {
@@ -79,4 +92,37 @@
 .price {
   width: 30%;
   padding: 5%;
+}
+
+.filterImg {
+  border-radius: 90px;
+  width: 5%;
+  margin-top: 10px;
+  position: relative;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 500px)  {
+  .cards {
+    display: flex;
+    flex-direction: column;
+    max-width: 10vh;
+  }
+
+  .cards2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 10vh;
+  }
+
+  .filterImg {
+    width: 10vh;
+    height: auto;
+  }
+
+  .pageTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 68vh;
+  }
 }
