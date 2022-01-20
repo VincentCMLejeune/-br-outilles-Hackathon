@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 import Home from "./Screens/Home/Home";
 import Product from "./Screens/Product/Product";
+import Product2 from "./Screens/Product/Product2"
 import Search from "./Screens/Search/Search";
 
 import "./App.css";
@@ -18,6 +19,7 @@ export default function App() {
         <Routes>
           <Route path="/home" element={<Home />} />
           <Route path="/product" element={<Product />} />
+          <Route path="/product2" element={<Product2 />} />
           <Route path="/search" element={<Search />} />
         </Routes>
       </BrowserRouter>
