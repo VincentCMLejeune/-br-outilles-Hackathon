@@ -1,6 +1,6 @@
 import ClickableHouse from "../../Components/Clickable House/ClickableHouse";
 
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/logo-removebg.png";
 
 import styles from "./Home.module.css";
 

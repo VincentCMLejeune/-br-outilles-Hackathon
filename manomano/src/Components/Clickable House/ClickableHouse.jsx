@@ -24,8 +24,6 @@ export default function ClickableHouse() {
 
   return (
     <div>
-      {/* <img src={Logo} /> */}
-      <h2 className={styles.title}>Je suis la maison</h2>
       <div className={styles.houseContainer}>
         <svg
           id="houseSVG"
