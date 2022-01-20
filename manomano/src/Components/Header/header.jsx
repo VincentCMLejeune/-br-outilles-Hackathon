@@ -20,6 +20,7 @@ export default function Header() {
     } else {
       navigate("/home/pro");
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isPro]);
 
   return (
