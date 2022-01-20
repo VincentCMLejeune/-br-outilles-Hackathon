@@ -1,0 +1,99 @@
+.header {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  height: 6vh;
+  width: 100vw;
+}
+
+.myAccount {
+  margin-right: 10px;
+  height: 40px;
+  width: 35px;
+}
+
+.hexagonNormal {
+  position: relative;
+  width: 40px; 
+  height: 23.09px;
+  background-color: #204a87;
+  margin: 11.55px 0;
+}
+.hexagonNormal:before,
+.hexagonNormal:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+}
+
+.hexagonNormal:before {
+  bottom: 100%;
+  border-bottom: 11.55px solid #204a87;
+}
+
+.hexagonNormal:after {
+  top: 100%;
+  width: 0;
+  border-top: 11.55px solid #204a87;
+}
+.hexagonPro {
+  position: relative;
+  width: 40px; 
+  height: 23.09px;
+  background-color: orange;
+  margin: 11.55px 0;
+}
+.hexagonPro:before,
+.hexagonPro:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+}
+
+.hexagonPro:before {
+  bottom: 100%;
+  border-bottom: 11.55px solid orange;
+}
+
+.hexagonPro:after {
+  top: 100%;
+  width: 0;
+  border-top: 11.55px solid orange;
+}
+
+.filler {
+  border: 1px solid black;
+  width: 12vh;
+  height: 30px;
+  background-color: darkgrey;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-top: 5px;
+  transition: all 0.3s linear;
+}
+.linkContainer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 60vw;
+  margin-left: 20vh;
+}
+
+.links {
+  color: red;
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  height: 30px;
+  width: 30px;
+  border: none;
+  border-radius: 5px;
+}

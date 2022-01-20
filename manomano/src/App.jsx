@@ -1,26 +1,26 @@
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
 import Home from "./Screens/Home/Home";
 import Product from "./Screens/Product/Product";
 import Search from "./Screens/Search/Search";
+import Header from "./Components/Header/header";
+import HomePro from "./Screens/HomePro/HomePro";
 
 import "./App.css";
+import MyAccount from "./Screens/MyAccount/MyAccount";
 
 export default function App() {
+
   return (
     <div className="App">
-      <BrowserRouter>
-        <div className="links">
-          <Link to="/home">Go to Home Page</Link>
-          <Link to="/product">Go to Product Page</Link>
-          <Link to="/search">Go to Search Page</Link>
-        </div>
+      <Header />
         <Routes>
+          <Route path="/home/pro" element={<HomePro />} />
           <Route path="/home" element={<Home />} />
           <Route path="/product" element={<Product />} />
           <Route path="/search" element={<Search />} />
+          <Route path="/myaccount" element={<MyAccount />} />
         </Routes>
-      </BrowserRouter>
     </div>
   );
 }
