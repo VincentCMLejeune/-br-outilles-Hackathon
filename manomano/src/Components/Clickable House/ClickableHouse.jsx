@@ -23,7 +23,9 @@ export default function ClickableHouse() {
   }, []);
 
   return (
-    <div>
+    <div className={styles.clickableHouseComponentContainer}>
+      <h2>Je sais ce que je veux !</h2>
+      <h3>Alors cliquez sur le mobilier que vous voulez changer</h3>
       <div className={styles.houseContainer}>
         <svg
           id="houseSVG"
@@ -1247,7 +1249,7 @@ export default function ClickableHouse() {
         <button data-view="1740 900 960 840">Salle de bain</button>
         <button data-view="1302 1782 1410 630">Salon</button>
         <button data-view="300 981 1440 180">Chambre</button>
-        <button data-view="1410 2250 180 108">Guides</button>
+        <button data-view="1410 2250 180 108">Aidez-moi!</button>
       </div>
     </div>
   );
