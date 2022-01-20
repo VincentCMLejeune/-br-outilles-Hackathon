@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router";
 import styles from "./Search.module.css";
 import logo from "../../Assets/MM_LOGO.png"
 import Card from "./Card";
@@ -6,6 +6,7 @@ import filter from "../../Assets/filter.png";
 
 
 export default function Search() {
+  let navigate = useNavigate();
   return (
     <div>
       <img className={styles.logoMM} src={logo} alt="Logo Mano Mano"/>
@@ -15,9 +16,8 @@ export default function Search() {
           <img className={styles.filterImg} src={filter} alt="filter button" />
         </div>
       <div className={styles.cards}>
-        <Link to="/">
-          <Card/>
-        </Link>
+          <Card onClick={()=> navigate('/product')}/>
+
           <Card/>
       </div>
       <div className={styles.cards2}>
