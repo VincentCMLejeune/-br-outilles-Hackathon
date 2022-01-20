@@ -1244,12 +1244,12 @@ export default function ClickableHouse() {
         </svg>
       </div>
       <div className={styles.buttons}>
-        <button data-view="0 0 3000 3000">Maison</button>
-        <button data-view="300 1782 1020 840">Cuisine</button>
-        <button data-view="1740 900 960 840">Salle de bain</button>
-        <button data-view="1302 1782 1410 630">Salon</button>
-        <button data-view="300 981 1440 180">Chambre</button>
-        <button data-view="1410 2250 180 108">Aidez-moi!</button>
+        <button className={styles.houseButton} data-view="0 0 3000 3000">Maison</button>
+        <button className={styles.houseButton} data-view="300 1782 1020 840">Cuisine</button>
+        <button className={styles.houseButton} data-view="1740 900 960 840">Salle de bain</button>
+        <button className={styles.houseButton} data-view="1302 1782 1410 630">Salon</button>
+        <button className={styles.houseButton} data-view="300 981 1440 180">Chambre</button>
+        <button className={styles.houseButton} data-view="1410 2250 180 108">Aidez-moi!</button>
       </div>
     </div>
   );

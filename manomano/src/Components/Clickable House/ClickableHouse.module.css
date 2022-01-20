@@ -30,16 +30,20 @@
   }
 }
 
-.buttons button {
+.houseButton {
   font-size: 16px;
   line-height: 24px;
   font-weight: 600;
   color: #0c193a;
-  border-bottom: 4px solid #12ccb4;
+  border-bottom: 3px solid #12ccb4;
   background-color: white;
   border-radius: 10px;
   padding: 5px;
   margin: 0 5px;
+}
+
+.houseButton:hover {
+  cursor: pointer;
 }
 
 .clickableElement:hover {
