@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom";
 import styles from "./Search.module.css";
 import logo from "../../Assets/MM_LOGO.png"
 import Card from "./Card";
 import filter from "../../Assets/filter.png";
+
 
 export default function Search() {
   return (
@@ -13,8 +15,10 @@ export default function Search() {
           <img className={styles.filterImg} src={filter} alt="filter button" />
         </div>
       <div className={styles.cards}>
-        <Card/>
-        <Card/>
+        <Link to="/">
+          <Card/>
+        </Link>
+          <Card/>
       </div>
       <div className={styles.cards2}>
         <Card/>
