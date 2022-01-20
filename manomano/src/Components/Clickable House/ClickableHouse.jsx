@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import gsap from "gsap";
 
-import Logo from "../../assets/logonegatif.png";
+import Logo from "../../Assets/logonegatif.png";
 
 import styles from "./ClickableHouse.module.css";
 
