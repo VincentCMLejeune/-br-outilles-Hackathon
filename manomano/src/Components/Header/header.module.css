@@ -2,7 +2,7 @@
   padding: 5px;
   display: flex;
   justify-content: space-between;
-  height: 6vh;
+  height: 10vh;
   width: 100vw;
 }
 
@@ -96,4 +96,73 @@
   width: 30px;
   border: none;
   border-radius: 5px;
+}
+
+.headerFirstLine {
+  display: flex;
+  width: 100vw;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.headerSearchForm {
+  -webkit-flex: 1 1;
+  flex: 1 1;
+  position: relative;
+  width: 100%;
+  height: 44px;
+  padding-left: 16px;
+  padding-right: 40px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: inherit;
+  font-size: 16px;
+  color: #0c193a;
+  text-overflow: ellipsis;
+  background-color: #fafafa;
+  border: 1px solid #d8dadf;
+  border-radius: 22px;
+  margin-left: 15vh;
+}
+
+.headerConnectBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+
+@media screen and (min-width: 600px) {
+  .headerConnectBlock {
+    margin-left: 40px;
+  }
+}
+
+.headerConnectBlock p {
+  margin: 0;
+  text-align: left;
+  color: gray;
+}
+
+.headerBonjour {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 134px;
+}
+
+.headerConnectezVous {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+.headerCartLogo {
+  height: 20px;
+  width: 20px;
+  padding: 10px;
 }
