@@ -1,3 +1,72 @@
 .title {
-  color: blue;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  margin: 0;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.subTitle {
+  display: flex;
+  justify-content: center;
+  margin-top: 4px;
+  font-size: 10px;
+}
+
+.logoMM  {
+  width: 147px;
+  height: auto;
+}
+
+.cardContainer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding: 16px;
+  margin: 5px;
+  width: 450px;
+  border: 1px solid #ecedf0;    
+  border-radius: 4px;
+  box-shadow: 0 2px 6px 0 rgb(0 0 0 / 8%);
+  box-sizing: border-box;
+  background-color: #fff;
+  text-decoration: none;
+  outline: none;
+  overflow: hidden;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.cardTitle {
+  font-size: 10px;
+  overflow: hidden;
+  padding: 5%;
+}
+
+.chainSaw {
+  width: 145px;
+  height: auto;
+}
+
+.timberpro {
+  width: 110px;
+  height: auto;
+}
+
+.images {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.starsImg {
+  width: 40%;
+  padding: 5%;
 }
