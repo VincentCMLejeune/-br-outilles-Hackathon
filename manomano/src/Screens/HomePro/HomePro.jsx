@@ -1,9 +1,12 @@
+import radiateur from "../../Assets/radiateur.png"
+
 import styles from "./HomePro.module.css";
 
 export default function HomePro() {
   return (
     <div>
       <h1 className={styles.title}>Je suis le Home Pro</h1>
+      <img src={radiateur} alt="radiateur" />
     </div>
   );
 }
