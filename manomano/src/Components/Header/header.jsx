@@ -20,7 +20,7 @@ export default function Header() {
     } else {
       navigate("/home/pro");
     }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isPro]);
 
   return (
@@ -97,6 +97,15 @@ export default function Header() {
           >
             <Link to="/search" className={styles.links}>
               Go to Search Page
+            </Link>
+          </div>
+          <div
+            style={
+              homeVisible ? { visibility: "hidden" } : { visibility: "visible" }
+            }
+          >
+            <Link to="/productfilter" className={styles.links}>
+              Go to Product Filter
             </Link>
           </div>
           <button
