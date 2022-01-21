@@ -24,8 +24,8 @@ export default function ClickableHouse() {
 
   return (
     <div className={styles.clickableHouseComponentContainer}>
-      <h2>Je sais ce que je veux !</h2>
-      <h3>Alors cliquez sur le mobilier que vous voulez changer</h3>
+      <h2 className={styles.clickableHouseTitle}>Je sais ce que je veux !</h2>
+      <p className={styles.clickableHouseSubtitle}>Alors il n'y a plus qu'à cliquer sur votre futur meuble !</p>
       <div className={styles.houseContainer}>
         <svg
           id="houseSVG"

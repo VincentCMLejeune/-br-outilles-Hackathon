@@ -1,5 +1,5 @@
 import styles from "./Search.module.css";
-import Card from "./Card";
+import Card2 from "./Card2";
 import filter from "../../Assets/filter.png";
 
 
@@ -12,12 +12,12 @@ export default function Search() {
           <img className={styles.filterImg} src={filter} alt="filter button" />
         </div>
       <div className={styles.cards}>
-          <Card/>
-          <Card/>
+          <Card2/>
+          <Card2/>
       </div>
       <div className={styles.cards2}>
-        <Card/>
-        <Card/>
+        <Card2/>
+        <Card2/>
       </div>
     </div>
   );
