@@ -14,6 +14,13 @@
     width: 600px;
     height: 600px;
   }
+  .clickableHouseTitle {
+    margin-left: 50px;
+  }
+  
+  .clickableHouseSubtitle {
+    margin-left: 50px;
+  }
 }
 
 .clickableHouseTitle {

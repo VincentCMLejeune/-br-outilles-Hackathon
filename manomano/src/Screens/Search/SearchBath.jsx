@@ -7,7 +7,7 @@ export default function Search() {
   return (
     <div>
         <div className={styles.pageTop}>
-          <h1 className={styles.title}>« Tronçonneuse »</h1>
+          <h1 className={styles.title}>« Baignoire »</h1>
           <p className={styles.subTitle}>Plus de 500 produits trouvés</p>
           <img className={styles.filterImg} src={filter} alt="filter button" />
         </div>
