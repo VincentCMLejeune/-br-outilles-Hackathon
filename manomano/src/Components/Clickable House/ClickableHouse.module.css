@@ -16,6 +16,20 @@
   }
 }
 
+.clickableHouseTitle {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #0c193a;
+}
+
+.clickableHouseSubtitle {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #505971;
+}
+
 .buttons {
   display: flex;
   flex-wrap: wrap;
@@ -49,7 +63,7 @@
 }
 
 .houseButton::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -61,7 +75,7 @@
 }
 
 .houseButton::before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;

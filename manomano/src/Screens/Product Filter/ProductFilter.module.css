@@ -40,6 +40,20 @@
   height: 100%;
 }
 
+.clickableHouseTitle {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #0c193a;
+}
+
+.clickableHouseSubtitle {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #505971;
+}
+
 
 @media screen and (max-width: 1200px) {
   .productFilterForm {

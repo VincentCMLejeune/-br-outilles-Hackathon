@@ -91,12 +91,17 @@ export default function ProductFilter() {
 
   return (
     <div className={styles.productFilterContainer}>
+      <h2 className={styles.clickableHouseTitle}>Je veux une bibliothèque !</h2>
+      <p className={styles.clickableHouseSubtitle}>
+        Mais laquelle ? Testez nos filtres !
+      </p>
+
       <div className={styles.mainFeatureProductFilterContainer}>
         <div className={styles.productFilterPictureContainer}>
           <img src={imgSrc} className={styles.biblioPicture} alt="" />
         </div>
         <div className={styles.productFilterForm}>
-          <h3>Bibliothèques</h3>
+          <h3>Forme</h3>
           <div className={styles.optionSelector}>
             <button
               className={styles.optionButton}
