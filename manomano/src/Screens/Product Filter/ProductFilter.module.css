@@ -40,6 +40,16 @@
   height: 100%;
 }
 
+@media screen and (min-width: 600px) {
+  .clickableHouseTitle {
+    margin-left: 50px;
+  }
+  
+  .clickableHouseSubtitle {
+    margin-left: 50px;
+  }
+}
+
 .clickableHouseTitle {
   font-size: 20px;
   line-height: 28px;
